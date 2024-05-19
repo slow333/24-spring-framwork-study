@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <bean class="spfw.Book" id="book1"/>
+    <bean class="spfw.Book" id="book2"/>
+    <bean id="myService" class="spfw.spring02.component.MyService">
+<!--        set myDao-->
+        <property name="myDao" ref="myDao"></property>
+    </bean>
+    <bean id="myDao" class="spfw.spring02.component.MyDao"/>
+</beans>
