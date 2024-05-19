@@ -1,5 +1,5 @@
----
-# EJB(Enterprise JavaBeans)
+
+## EJB(Enterprise JavaBeans)
 - EJB는 에프리케이션 작성을 쉽게 해준다
 - 그러나 개발도 힘들고, 배포도 힘들고...
    - 그래서 J2EE 등장
